@@ -1,0 +1,89 @@
+.main {
+  background-color: #120052;
+  margin: auto;
+  border-radius: 20px;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 10px 10px 10px 10px rgba(18, 0, 82, 0.5);
+}
+
+input {
+  width: 70%;
+  height: 30px;
+  border-radius: 20px;
+  padding: 5px;
+  display: block;
+  margin: auto;
+  font-size: 1rem;
+  border: none;
+  padding: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+input:active,
+input:focus {
+  outline: none;
+}
+
+button {
+  width: 40%;
+  height: 45px;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 10px;
+  background-color: teal;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  display: block;
+  margin-top: 10px;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background-color: white;
+  color: teal;
+  letter-spacing: 2px;
+}
+
+button:active,
+button:focus {
+  outline: none;
+}
+
+.MuiSvgIcon-root {
+  color: teal;
+}
+
+.MuiButtonBase-root {
+  margin-left: 233px;
+}
+
+.plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tasks {
+  padding: 10px;
+  margin-bottom: 10px;
+  overflow: auto;
+  max-height: 40vh;
+  max-width: fit-content;
+  margin: auto;
+}
+
+.tasks::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari, Opera */
+}
+
+.tasks {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

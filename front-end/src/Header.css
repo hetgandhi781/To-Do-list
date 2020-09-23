@@ -1,0 +1,21 @@
+.header {
+    height: fit-content;
+    width: 400px;
+    background-color: #120052;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.header__title {
+    color: white;
+    font-size: 3rem;
+    font-family: "Delius Swash Caps", cursive;
+}
+
+.date {
+    font-size: 1rem;
+    display: block;
+    position: relative;
+}

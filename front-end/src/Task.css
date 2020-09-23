@@ -1,0 +1,38 @@
+.task {
+  color: white;
+  padding: 10px 5px;
+  font-size: 1.5rem;
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(6, 155, 142);
+  border-radius: 20px;
+  margin-bottom: 10px;
+  transition: transform 0.1s ease-in;
+  font-weight: bolder;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  z-index: 1000;
+}
+
+.task:hover {
+  transform: scale(1.05);
+}
+
+.task__delete {
+  opacity: 0;
+  color: white;
+}
+
+.task__edit {
+  margin-right: 10px;
+  opacity: 0;
+}
+
+.task:hover .task__edit {
+  opacity: 1;
+}
+
+.task:hover .task__delete {
+  opacity: 1;
+}
